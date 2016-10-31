@@ -13,12 +13,10 @@ namespace WebConnect {
         private string queryString;
         private ResultDelegate callback;
 
-	    public WebConnection(string _url){
+	public WebConnection(string _url){
             url = _url;
-	    }
-        public void setMethod(string _method) {
-            method = _method;   
-        }
+	}
+	    
         public void setURL(string _url) {
             url = _url;
         }
